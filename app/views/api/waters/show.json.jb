@@ -1,0 +1,6 @@
+{
+  id: @water.id,
+  name: @water.name,
+  price: @water.price,
+  size: @water.size
+}
