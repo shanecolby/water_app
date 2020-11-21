@@ -5,5 +5,6 @@
   size: water.size,
   tax: water.tax,
   total: water.total,
-  discounted?: water.discounted?
+  discounted?: water.discounted?,
+  sale?: water.sale?
 }

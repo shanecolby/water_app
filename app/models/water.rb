@@ -11,5 +11,7 @@ class Water < ApplicationRecord
     price < 3
   end
 
-  
+  def sale?
+    total < 2
+  end
 end
