@@ -1,0 +1,9 @@
+{
+  id: water.id,
+  name: water.name,
+  price: water.price,
+  size: water.size,
+  tax: water.tax,
+  total: water.total,
+  discounted?: water.discounted?
+}

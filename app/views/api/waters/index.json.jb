@@ -1,9 +1,13 @@
 @waters.map do |water|
 
-{
-  id: water.id,
-  name: water.name,
-  price: water.price,
-  size: water.size
-}
+# {
+#   id: water.id,
+#   name: water.name,
+#   price: water.price,
+#   size: water.size,
+#   tax: water.tax,
+#   total: water.total,
+#   discounted?: water.discounted?
+# }
+render partial: "water.json.jb", locals: {water: water}
 end
